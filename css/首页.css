@@ -1,0 +1,141 @@
+*{margin: 0;padding: 0;list-style: none;}
+body{overflow-x: hidden;}
+.partfl{float: left;}
+.nav{width: 100%;background: url(../fonts/项目实训img/favicon.ico) no-repeat;}
+.center{width: 80%;margin: 0 auto;}
+.center div{float: left;}
+.center ul {float: right;margin-bottom: 0;}
+.center ul li{float: left;display: inline-block;padding: 17px ;
+font-size: 22px;width: 150px;color: white;text-align: center;}
+.center ul li:last-child{background: indianred;}
+.center .en{color: gainsboro;font-size: 14px;}
+.center li:hover{background: indianred;}
+.top_puice{background: url(../fonts/项目实训img/bg-kv1.jpg) no-repeat;height: 1000px;}
+.container{height: 230px;}
+.container .list{height: 190px;width: 95%;margin: 0 auto;}
+.list  li{float: left;width: 25%;}
+.main .table{background: url(../fonts/项目实训img/part4.jpg) no-repeat;margin-bottom: 0;}
+.main .table_list{margin-bottom: 0; height: 647px;width: 80%;margin: 0 auto;}
+.table_list .tab{background-color: gray;padding: 0;z-index: 9;margin-bottom: 0;}
+.tab li{height: 90px;text-align: center;padding-top: 40px;border-bottom: 1px solid lightgray;color: white; }
+.tab .top{height: 197px;}
+/*main*/
+.charcon{height: 540px;margin: 60px 0 0 45px;width: 100%;}
+.title{display: block;width: 404px;height: 80px;background: url(../fonts/项目实训img/role-title-spr.png) no-repeat;background-position-x: 0%;background-position-y: 100%;text-indent: -999em;}
+.title2{display: block;width: 404px;height: 80px;background: url(../fonts/项目实训img/role-title-spr.png) no-repeat;background-position-x: 0%;background-position-y: 0%;text-indent: -999em;}
+.title3{display: block;width: 404px;height: 80px;background: url(../fonts/项目实训img/role-title-spr.png) no-repeat;background-position-x: 0%;background-position-y: 20%;text-indent: -999em;}
+.title4{display: block;width: 404px;height: 80px;background: url(../fonts/项目实训img/role-title-spr.png) no-repeat;background-position-x: 0%;background-position-y: 40%;text-indent: -999em;}
+.title5{display: block;width: 404px;height: 80px;background: url(../fonts/项目实训img/role-title-spr.png) no-repeat;background-position-x: 0%;background-position-y: 60%;text-indent: -999em;}
+.title6{display: block;width: 404px;height: 80px;background: url(../fonts/项目实训img/role-title-spr.png) no-repeat;background-position-x: 0%;background-position-y: 80%;text-indent: -999em;}
+.roleid .role-con .roletext:before{ 
+	content: ' ';
+	display: block;
+    height: 20px;
+    background: url(../fonts/项目实训img/line.png) no-repeat;
+}
+.roleid .role-con .roletext:after{ 
+	content: ' ';
+    display: block;
+	margin-top: 15px;
+    height: 1px;
+    background: url(../fonts/项目实训img/line.png) no-repeat;
+}
+.roleid .role-con .roletext{text-align: center;width: 280px;margin-top: 60px;margin-left: 60px;}
+.roleId-con {
+    width: 600px;
+    overflow: hidden;
+    clear: both;
+    }
+ .roleId-con .roleId-ul {
+    float: left;
+    margin-top: 40px;
+    width: 240px;
+}
+.roleId-con li {
+    height: 30px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color:
+#475768;
+font-size: 16px;
+font-weight: 700;
+    }
+.roleId-con li p{float: left;}
+.tech {
+    float: left;
+    margin-left: 10px;
+    width: 231px;
+    padding-left: 40px;
+}
+.techtit {
+    margin-top: 40px;
+    color: 
+    #475768;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.tech li {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin-right: 10px;
+}
+.table_list .charsc{position: absolute;overflow: hidden;top: -11px;left: 395px;float: left;height: 598px;}
+.table_list .charsc2{position: absolute;overflow: hidden;top: -186px;left: 74px;float: left;height: 773px;}
+.table_list .charsc3{position: absolute;overflow: hidden;top: -179px;left: -40px;float: left;height: 766px;}
+.table_list .charsc4{position: absolute;overflow: hidden;top: -120px;left: -170px;float: left;height: 707px;}
+.table_list .charsc5{position: absolute;overflow: hidden;top: -170px;left: -40px;float: left;height: 757px;}
+.table_list .charsc6{position: absolute;overflow: hidden;top: -120px;left: -40px;float: left;height: 707px;}
+.roleid{z-index: 9;position: relative;}
+/*轮播*/
+.item{height: 550px;}
+.next{background: url(../fonts/项目实训img/part6-1.jpg) no-repeat;height: 100%;}
+.next_main{width: 80%;margin: 0 auto;height: 731px;}
+.next_text h3{text-align: center;font-weight: 800;height: 131px;margin: 0;padding-top: 55px;}
+.next_footer{height: 277px;}
+.next_footer_out{background: url(../fonts/项目实训img/part8.jpg) no-repeat;height: 277px;background-size: 100%;}
+.outside{width: 80%;height: 155px;margin: auto;padding-top: 70px;}
+.outside li{float: left;position: relative;width: 20%;text-align: center;}
+.next_footer_out .outside  span{color: gray;}
+.next_footer_out .outside  .img1 a{
+width: 100%;
+background-image: url(../fonts/项目实训img/link-code.png);
+transparent;background-position-x: -5%;background-position-y: 0%;
+display: inline-block;
+height: 125px;
+}
+.next_footer_out .outside  .img2 a{
+width: 100%;
+background-image: url(../fonts/项目实训img/link-code.png);
+transparent;background-position-x: 21%;background-position-y: 0%;
+display: inline-block;
+height: 125px;
+}
+.next_footer_out .outside  .img3 a{
+width: 100%;
+background-image: url(../fonts/项目实训img/link-code.png);
+transparent;background-position-x: 47%;background-position-y: 0%;
+display: inline-block;
+height: 125px;
+}
+.next_footer_out .outside  .img4 a{
+width: 100%;
+background-image: url(../fonts/项目实训img/link-code.png);
+transparent;background-position-x: 72%;background-position-y: 0%;
+display: inline-block;
+height: 125px;
+}
+.next_footer_out .outside  .img5 a{
+width: 100%;
+background-image: url(../fonts/项目实训img/link-code.png);
+transparent;background-position-x: 98%;background-position-y: 0%;
+display: inline-block;
+height: 125px;
+}
+/*footer*/
+.footer{height: 165px;background: black;}
+.fot_text{padding-top: 18px;}
+.fot_text li{color: white;line-height: 1.88em;}
+.footer img{margin: 0 auto;display: block;margin-top: 63px;}
